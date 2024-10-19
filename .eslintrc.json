@@ -1,0 +1,52 @@
+{
+    "extends": [
+        "next/core-web-vitals",
+        "airbnb",
+        "airbnb-typescript",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "react/jsx-props-no-spreading": "off",
+        "no-console": 1,
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true
+            }
+        ],
+        "linebreak-style": 0,
+        "quotes": [
+            "off"
+        ],
+        "no-nested-ternary": "off",
+        "prefer-spread": [
+            "off"
+        ],
+        "react/react-in-jsx-scope": "off",
+        "max-len": [
+            "error",
+            {
+                "code": 3000
+            }
+        ],
+        "consistent-return": "off",
+        "no-plusplus": [
+            "error",
+            {
+                "allowForLoopAfterthoughts": true
+            }
+        ],
+        "indent": "off",
+        "react/no-unknown-property": [
+            "off"
+        ],
+        "jsx-a11y/anchor-is-valid": "off",
+        "avoidEscape": "off",
+        "allowTemplateLiterals": "off",
+        "array-callback-return": "off",
+        "@typescript-eslint/naming-convention": "off",
+    }
+}
