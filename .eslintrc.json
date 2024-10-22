@@ -48,5 +48,6 @@
         "allowTemplateLiterals": "off",
         "array-callback-return": "off",
         "@typescript-eslint/naming-convention": "off",
+        "@typescript-eslint/no-explicit-any": "off"
     }
 }
