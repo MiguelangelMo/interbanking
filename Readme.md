@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Presento la entrega del **challenge** realizado por Miguel Ángel Molero. Este sistema está construido utilizando **TypeScript**, **ESLint**, **React**, **SCSS**, entre otras tecnologías.
+Presento la entrega del **challenge** realizado por Miguelangel Molero. Este sistema está construido utilizando **TypeScript**, **ESLint**, **React**, **SCSS**, entre otras tecnologías.
 
 ## Observaciones
 

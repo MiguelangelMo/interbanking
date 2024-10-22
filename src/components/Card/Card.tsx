@@ -13,8 +13,8 @@ export default function Card({ arrCards, setState }: { arrCards: ArrCards[], set
     return (
         <div className='row mt-1'>
             {arrCards.map((cards: ArrCards) => (
-                <div className='col-md-5 pl-0 mt-1' key={cards.id}>
-                    <div className="card text-center" >
+                <div className='col-md-5 pl-0 mt-1 h-13' key={cards.id}>
+                    <div className="card text-center h-100" >
                         <div className="card-header d-flex justify-content-space">
                             <p>
                                 {cards.title}

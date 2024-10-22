@@ -25,6 +25,7 @@ module.exports = {
     coveragePathIgnorePatterns: [
         '/node_modules/',
         '/.jest.setup.js/',
+        '/webpack.config.js',
     ],
     testPathIgnorePatterns: [
         '/node_modules/',

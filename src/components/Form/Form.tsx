@@ -48,9 +48,9 @@ export default function Form({ state, setState }: { state: ArrCards[], setState:
             return;
         }
         const arrElement: ArrCards[] = [...state]
-        const lengthArr = state?.length ? state.length - 1 : 1
+        const newId = state.length ? state[state.length - 1].id + 1 : 1;
         arrElement.push({
-            id: state?.length ? state[lengthArr].id + 1 : 1,
+            id: newId,
             title: form.title,
             description: form.description
         });
