@@ -67,7 +67,7 @@ export default function Form({ state, setState }: { state: ArrCards[], setState:
                 dispatch(HaveTest(state))
                 const arrElement: ArrCards[] = state.filter((item: ArrCards) => item.description.toLocaleLowerCase().includes(search.search.toLocaleLowerCase()) || item.title.toLocaleLowerCase().includes(search.search.toLocaleLowerCase()))
                 setState([...arrElement]);
-            } else if (!search.search.length) {
+            } else if (!search.search.length && test.length) {
                 setState([...test]);
             }
         })()
