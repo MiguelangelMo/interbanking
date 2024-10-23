@@ -21,5 +21,9 @@ Este proyecto ha sido desarrollado desde cero, sin utilizar herramientas automat
      npm install --save-dev cheerio@1.0.0-rc.3
      ```
 
+     Cabe destacar que si se ejecuta **npm audit fix --force** para reparar las dependencias de node se realizara exitosamente y
+     se eliminara todas las vulnerabilidades pero los test unitario comenzaran a fallar porque no detectara **ECMAScript 6** por esa
+     razón sugiero que desistale e instale esta dependencia. 
+
 3. **Instalación de Dependencias**: 
    - No olvides ejecutar `npm install` para asegurarte de que todas las dependencias estén correctamente instaladas.
